@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css login form</title>
+    <style>
+        body{
+           background-image: url(https://wallpaperaccess.com/full/2293057.jpg); 
+           text-align: center;
+           color: blue;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-size: 30px;
+        }
+        a{
+            color: rgb(247, 0, 255);
+            text-decoration: none;
+        }
+        table{
+            width: 500px;
+            margin:20px auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        h2{
+            color:green ;
+            font-size: 30px;
+        }
+        input[type="text"],[type="date"],[type="password"],[type="email"],[type="number"],select{
+            width: 500px;
+            height: 45px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 5px;
+            padding: 5px;
+            border: 2px solid yellow;
+            border-radius: 8px;
+        }
+        input[type="radio"]{
+            width: 20%;
+            height: 25px;
+            margin-top: 5px;
+            padding: 5px;
+        }
+        input[type="submit"]{
+            background-color: #123456;
+            border: 2px solid white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: white;
+            width: 250px;
+            height: 70px;
+            font-size: 25px;
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        input:hover{
+            background-color: orange;
+            color: black;
+        }
+        select:hover{
+            background-color: orange;
+            color: black;
+        }
+        input:focus{
+            background-color: orange;
+            border: 2px solid fuchsia;
+            outline: none;
+        }
+        select:focus{
+            background-color: orange;
+            border: 2px solid fuchsia;
+            outline: none;
+        }
+        input[type="submit"]:hover{
+            background-color: fuchsia;
+            color: black;
+        }
+        input[type="submit"]:focus{
+            background-color: fuchsia;
+            color: black;
+        }
+        .name{
+            background-image: url(man.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+        .password{
+            background-image: url(password.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+        .email{
+            background-image: url(email.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+        .NUMBER{
+            background-image: url(mobile.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+        .dob{
+            background-image: url(date.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 50px 50px;
+        }
+        .country{
+            background-image: url(globe.jpg);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            background-size: 25px 25px;
+        }
+        
+            
+        
+        
+    </style>
+</head>
+<body>
+    <u><h2>Ranga css login form</h2></u>
+    <form action="#" method="post">
+<Table>
+<tr>
+    <td>
+        <select class="country">
+          <option value="select your country">select your country</option>
+           <option value="india">india</option> 
+           <option value="australia">australia</option> 
+           <option value="japan">japan</option> 
+           <option value="chaina">chaina</option> 
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="text" class="name" placeholder="ENTER YOUR NAME">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="email" class="email" placeholder="ENTER YOUR EMAIL">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="number" class="NUMBER" placeholder="ENTER YOUR NUMBER">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="date" class="dob" placeholder="ENTER YOUR DATE OF BIRTH">
+    </td>
+</tr>
+
+<tr>
+    <td> 
+      gender:<input type="radio" name="gender" value="male" checked>male
+        <input type="radio" name="gender" value="female">female
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="password" class="password" placeholder="ENTER YOUR PASSWORD">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="password" class="password" name="pass2" placeholder="CONFIRM YOUR PASSWORD">
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <input type="submit" name="register" value="register">
+    </td>
+</tr>
+</Table>
+</form>
+Already register? <a href="#">login hear</a>
+</body>
+</html>
